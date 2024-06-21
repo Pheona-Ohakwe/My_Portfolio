@@ -1,0 +1,156 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #ff80ab; /* Pink background for header */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header stays on top */
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  header nav ul li a:hover {
+    color: #fff176; /* Yellow color on hover */
+  }
+  
+  main {
+    padding: 80px 20px 20px; /* Ensure content is below fixed header */
+  }
+  
+  article {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  article h2 {
+    color: #ff80ab; /* Pink color for headings */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text-container {
+    line-height: 1.8;
+  }
+  
+  /* Animation for profile picture */
+  .profile-container img {
+    max-width: 100%;
+    border-radius: 50%;
+    animation: floatPic 5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes floatPic {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Form and contact links styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #ff80ab; /* Pink button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  button:hover {
+    background-color: #ff4081; /* Darker pink on hover */
+  }
+  
+  .contact_links {
+    margin-top: 10px;
+  }
+  
+  .contact_links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  .contact_links a:hover {
+    color: #ff80ab; /* Pink color on hover */
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ff80ab; /* Pink background for footer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    header nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
