@@ -29,7 +29,7 @@ This project showcases a girly and animated portfolio website using HTML and CSS
 
 
 
-link to GitHub Repository---> https://github.com/Pheona-Ohakwe/Portfolio.git
+link to GitHub Repository---> https://github.com/Pheona-Ohakwe/My_Portfolio.git
 
 
 
