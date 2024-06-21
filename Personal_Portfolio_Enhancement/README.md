@@ -14,7 +14,7 @@ This project showcases a girly and animated portfolio website using HTML and CSS
 
 ![Screenshot](./static/images/contact.png?raw=true "contact page")
 
-![Screenshot](./static/images/resume.png.png?raw=true " resume page")
+![Screenshot](./static/images/resume.png?raw=true " resume page")
 
 ## Features
 
